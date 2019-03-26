@@ -40,7 +40,7 @@ public class MainTest {
 
     @Test
     public void reverseEmptyString() {
-        assertEquals("", anagramMaker.splitAndReverseString("      "));
+        assertEquals("", anagramMaker.splitAndReverseString("       "));
     }
 
     @Test
