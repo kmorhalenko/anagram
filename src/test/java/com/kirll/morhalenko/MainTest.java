@@ -17,24 +17,24 @@ public class MainTest {
     }
 
     @Test
-    public void reverseNumericalString() throws Exception {
+    public void reverseNumericalString() {
         assertEquals("1234567890", anagramMaker.splitAndReverseString("1234567890"));
     }
 
     @Test
-    public void specialCharactersNotReverse() throws Exception {
+    public void specialCharactersNotReverse() {
         assertEquals("!@#$%^&*(()", anagramMaker.splitAndReverseString("!@#$%^&*(()"));
 
     }
 
     @Test
-    public void reverseStringOfCharacters() throws Exception {
+    public void reverseStringOfCharacters() {
         assertEquals("privetMir", anagramMaker.splitAndReverseString("riMtevirp"));
 
     }
 
     @Test
-    public void splitAndReverseString() throws Exception {
+    public void splitAndReverseString() {
         assertEquals("qwerty asdfgh zxcvb", anagramMaker.splitAndReverseString("ytrewq hgfdsa bvcxz"));
     }
 
